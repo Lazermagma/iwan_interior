@@ -11,7 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        aboreto: ["Aboreto", "sans-serif"], // Add your font here
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

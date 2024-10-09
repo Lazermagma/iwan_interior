@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,10 +15,13 @@
   }
 }
 
+.aboreto-regular {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
