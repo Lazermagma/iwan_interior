@@ -88,11 +88,12 @@ export default function Home() {
             <div className="flex-1 flex items-center relative top-5  ">
               <div className="flex flex-col">
                 <p className="text-base md:text-lg  text-[#9f9e9e] h-auto font-aboreto">
-                  IWAN Design House is a premier architectural firm dedicated to
-                  creating innovative and sustainable designs. We specialize in
-                  crafting spaces that blend functionality with aesthetics,
-                  delivering architectural, urban, and landscape solutions that
-                  transform environments and inspire communities.
+                  IWAN Design House offers a comprehensive range of services,
+                  including architectural design, interior design, urban
+                  planning, And landscape design solutions. Our holistic
+                  approach ensures every project is tailored to meet our
+                  clients' needs, combining creativity with precision to deliver
+                  exceptional results from concept to completion. 4o
                 </p>
                 <div className="flex md:flex-row flex-col gap-3 mt-3">
                   <a
