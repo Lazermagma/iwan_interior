@@ -6,9 +6,9 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 export default function Home() {
   return (
     <div className="w-full h-full">
-      <div className="relative w-full h-full md:h-[34.688rem] bg-[#101420] flex flex-col md:flex-row">
+      <div className="relative w-full h-full md:h-[34.688rem] bg-[#101420] text-center md:text-left flex flex-col md:flex-row">
         <div className="flex-1 md:pl-24 p-6 mt-7 md:mt-7 text-white">
-          <h1 className="font-extrabold text-4xl md:text-7xl whitespace-nowrap md:m-0">
+          <h1 className="font-extrabold text-4xl md:text-7xl md:whitespace-nowrap md:m-0">
             IWAN Design House
           </h1>
           <p className="mt-2 ml-4 text-base md:text-lg md:ml-28 md:mt-8 text-[#9f9e9e] m-0 font-aboreto">
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[#070F0F] h-screen md:h-screen pt-14">
+      <div className="bg-[#070F0F] md:text-left text-center h-full p-6 md:h-screen pt-14">
         <div className="md:relative md:bottom-44">
           <div className="flex flex-col md:flex-row gap-8 p-6">
             <div className="flex-1 flex justify-center">
@@ -38,7 +38,7 @@ export default function Home() {
                 className="max-w-full h-auto"
               />
             </div>
-            <div className="flex-1 flex items-center relative top-9">
+            <div className="flex-1 flex items-center relative top-9 md:top-12">
               <div className="flex flex-col">
                 <p className="text-base md:text-lg text-[#9f9e9e] h-auto font-aboreto">
                   IWAN Design House offers a comprehensive range of services,
@@ -48,16 +48,16 @@ export default function Home() {
                   clients&apos; needs, combining creativity with precision to
                   deliver exceptional results from concept to completion.
                 </p>
-                <div className="flex md:flex-row flex-col gap-3 mt-3">
+                <div className="flex md:flex-row flex-col gap-3 mt-6">
                   <a
-                    className="btn btn-active w-48"
+                    className="btn btn-active"
                     download
                     href="/assets/Portfolio.pdf"
                   >
                     Portfolio <FileDownloadIcon />
                   </a>
                   <a
-                    className="btn btn-active w-48"
+                    className="btn btn-active "
                     download
                     href="/assets/company_profile.pdf"
                   >
