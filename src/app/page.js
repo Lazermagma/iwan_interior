@@ -1,7 +1,8 @@
+"use client";
 import Image from "next/image";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import "./globals.css";
-
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 export default function Home() {
   return (
     <div className="w-full h-full">
@@ -62,6 +63,11 @@ export default function Home() {
                   >
                     Company Profile <FileDownloadIcon />
                   </a>
+                  <FloatingWhatsApp
+                    phoneNumber="+201032004400"
+                    accountName=" IWAN Design House"
+                    avatar="/assets/images/logo_white.png"
+                  />
                 </div>
               </div>
             </div>
