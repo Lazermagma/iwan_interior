@@ -85,7 +85,7 @@ export default function Home() {
                 className="max-w-full h-auto  "
               />
             </div>
-            <div className="flex-1 flex items-center relative top-5  ">
+            <div className="flex-1 flex items-center relative top-9  ">
               <div className="flex flex-col">
                 <p className="text-base md:text-lg  text-[#9f9e9e] h-auto font-aboreto">
                   IWAN Design House offers a comprehensive range of services,
